@@ -1,0 +1,13 @@
+2023-08-29 22:40:17.411 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-29 22:40:18.858 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 278.80ms
+ptyhostservice<->ptyhost: 7.95ms []
+2023-08-29 22:40:18.863 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 283.80ms
+ptyhostservice<->ptyhost: 1.20ms []
+2023-08-29 22:40:18.877 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 297.40ms
+ptyhostservice<->ptyhost: 1.17ms []
+2023-08-29 22:40:18.889 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 305.70ms
+ptyhostservice<->ptyhost: 1.28ms []

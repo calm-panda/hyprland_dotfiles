@@ -1,0 +1,41 @@
+{
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": null,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.codeActionsOnSave": null,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "omnisharp.dotnetPath": "/usr/bin",
+    "omnisharp.useGlobalMono": "always",
+    "omnisharp.useModernNet": false,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Ayu Mirage"
+}

@@ -1,0 +1,65 @@
+# GLOBAL
+#sort=+time
+layer=overlay
+
+# STYLE
+font=JetBrains Mono ExtraBold 11.2
+width=240
+margin=5,18,0
+padding=7
+border-size=1
+border-radius=10
+progress-color=#ffffff
+max-icon-size=36
+icon-location=right
+format=<b>%s</b>\n%b
+text-alignment=left
+anchor=top-right
+
+# CRITERA
+## urgency
+[urgency=low]
+default-timeout=2500
+background-color=#000000
+border-color=#2D2D2D
+text-color=#ffffff
+
+[urgency=normal]
+default-timeout=8000
+background-color=#161616
+border-color=#565656
+text-color=#ffffff
+
+[urgency=critical]
+default-timeout=0
+background-color=#C20618
+border-color=#D70015
+text-color=#ffffff
+
+## app-name
+[app-name=Pomodoro]
+anchor=top-center
+format=%s\n%b
+group-by=app-name
+default-timeout=1000
+on-notify=exec echo hello
+
+[app-name=Geary]
+format=Geary\n%s: %b
+
+[app-name=control]
+format=<b>%s</b>\n%b
+group-by=summary
+anchor=top-center
+text-alignment=center
+
+[app-name=batsignal]
+format=<b>%s</b>\n%b
+group-by=app-name
+
+[app-name=udiskie]
+default-timeout=2500
+
+## body
+[body=""]
+format=%s\n%b

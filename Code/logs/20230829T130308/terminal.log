@@ -1,0 +1,27 @@
+2023-08-29 13:04:41.645 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["The connection timed out"]
+2023-08-29 13:04:48.262 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-29 13:04:49.602 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 260.50ms
+ptyhostservice<->ptyhost: 9.07ms []
+2023-08-29 13:04:49.602 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 260.30ms
+ptyhostservice<->ptyhost: 13.18ms []
+2023-08-29 13:04:49.603 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 260.20ms
+ptyhostservice<->ptyhost: 12.49ms []
+2023-08-29 13:04:49.603 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 259.90ms
+ptyhostservice<->ptyhost: 11.85ms []
+2023-08-29 13:47:44.217 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-29 13:47:53.907 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 73.30ms
+ptyhostservice<->ptyhost: 1.58ms []
+2023-08-29 13:47:53.908 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 74.60ms
+ptyhostservice<->ptyhost: 1.40ms []
+2023-08-29 13:47:53.909 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 75.70ms
+ptyhostservice<->ptyhost: 1.12ms []
+2023-08-29 13:47:53.910 [info] Latency measurements for ssh-remote+fcs backend
+window<->ptyhostservice<->ptyhost: 76.30ms
+ptyhostservice<->ptyhost: 0.95ms []

@@ -1,0 +1,10 @@
+line-uses-ring
+line-uses-inside
+indicator-caps-lock
+image=~/Pictures/Wallp/image.png
+indicator-radius=128
+indicator-thickness=8
+indicator-y-position=800
+inside-color=4e4e4e
+ring-color=d35d6e
+key-hl-color=00c9bf

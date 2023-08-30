@@ -1,0 +1,35 @@
+2023-08-29 12:41:21.467 [info] Extension host with pid 5739 started
+2023-08-29 12:41:21.467 [info] Skipping acquiring lock for /home/panda/.config/Code/User/workspaceStorage/d9f9d2bb72e736ed32c2116ec59efcf0.
+2023-08-29 12:41:21.541 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-29 12:41:21.546 [info] ExtensionService#_doActivateExtension DivyanshuAgrawal.competitive-programming-helper, startup: true, activationEvent: '*'
+2023-08-29 12:41:21.554 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-08-29 12:41:21.605 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-29 12:41:21.628 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-29 12:41:21.698 [info] Eager extensions activated
+2023-08-29 12:41:21.754 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 12:41:21.757 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 12:41:21.765 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 12:41:21.788 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 12:41:21.804 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 12:41:22.059 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 12:41:22.139 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-29 12:41:22.192 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-29 12:41:23.059 [info] ExtensionService#_doActivateExtension eww-yuck.yuck, startup: false, activationEvent: 'onLanguage:yuck'
+2023-08-29 12:41:23.061 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-29 12:41:23.242 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-29 12:41:23.269 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-29 12:51:32.877 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-08-29 13:01:24.715 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-29 13:01:24.740 [info] Extension host with pid 5739 exiting with code 0
+2023-08-29 13:01:25.673 [info] Extension host with pid 9193 started
+2023-08-29 13:01:25.674 [info] Skipping acquiring lock for /home/panda/.config/Code/User/workspaceStorage/5e6b1249d09464ac53c053ba51457af2.
+2023-08-29 13:01:25.678 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2023-08-29 13:01:25.689 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2023-08-29 13:01:25.737 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+fcs
+2023-08-29 13:01:25.737 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+fcs...
+2023-08-29 13:01:25.737 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2023-08-29 13:01:26.738 [info] [resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2023-08-29 13:01:27.738 [info] [resolveAuthority(ssh-remote,1)][2001ms] waiting...
+2023-08-29 13:01:28.740 [info] [resolveAuthority(ssh-remote,1)][3003ms] waiting...
+2023-08-29 13:01:29.727 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-29 13:01:29.728 [info] Extension host with pid 9193 exiting with code 0

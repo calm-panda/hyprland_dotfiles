@@ -1,0 +1,55 @@
+2023-08-29 22:40:14.823 [info] Invoking resolveAuthority(ssh-remote)...
+2023-08-29 22:40:14.824 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2023-08-29 22:40:14.824 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] invoking...
+2023-08-29 22:40:15.826 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2023-08-29 22:40:16.440 [error] [Extension Host] (node:52700) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-08-29 22:40:16.457 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1634ms] returned WebSocket(127.0.0.1:36555)
+2023-08-29 22:40:16.457 [info] resolveAuthority(ssh-remote) returned 'WebSocket(127.0.0.1:36555)' after 1634 ms
+2023-08-29 22:40:16.459 [info] Creating a socket (renderer-Management-68b136fd-bdb5-4c1a-b16a-165b892fbacd)...
+2023-08-29 22:40:16.461 [info] Creating a socket (renderer-ExtensionHost-f4c57442-a75f-4297-8be2-290694e5bf70)...
+2023-08-29 22:40:16.581 [info] Creating a socket (renderer-Management-68b136fd-bdb5-4c1a-b16a-165b892fbacd) was successful after 121 ms.
+2023-08-29 22:40:16.617 [info] Creating a socket (renderer-ExtensionHost-f4c57442-a75f-4297-8be2-290694e5bf70) was successful after 157 ms.
+2023-08-29 22:40:19.361 [info] [perf] Render performance baseline is 40ms
+2023-08-30 00:20:06.597 [error] [text file model] handleSaveError(45) - exit - resulted in a save error: Error: Unable to write file 'vscode-remote://ssh-remote+fcs/home/iiitd/Workspace/frontend/package.json' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/iiitd/Workspace/frontend/package.json') vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace/frontend/package.json
+2023-08-30 00:20:10.730 [error] [text file model] handleSaveError(45) - exit - resulted in a save error: Error: Unable to write file 'vscode-remote://ssh-remote+fcs/home/iiitd/Workspace/frontend/package.json' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/iiitd/Workspace/frontend/package.json') vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace/frontend/package.json
+2023-08-30 00:20:18.070 [error] [text file model] handleSaveError(45) - exit - resulted in a save error: Error: Unable to write file 'vscode-remote://ssh-remote+fcs/home/iiitd/Workspace/frontend/package.json' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/iiitd/Workspace/frontend/package.json') vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace/frontend/package.json
+2023-08-30 00:20:22.269 [error] [text file model] handleSaveError(45) - exit - resulted in a save error: Error: Unable to write file 'vscode-remote://ssh-remote+fcs/home/iiitd/Workspace/frontend/package.json' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/iiitd/Workspace/frontend/package.json') vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace/frontend/package.json
+2023-08-30 00:20:26.341 [error] Unable to read file 'vscode-remote://ssh-remote+fcs/home/iiitd/Workspace/frontend/package.json' (Error: File not modified since): Error: Unable to read file 'vscode-remote://ssh-remote+fcs/home/iiitd/Workspace/frontend/package.json' (Error: File not modified since)
+    at o.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:627:16316)
+    at o.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:627:16204)
+    at async b.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:36931)
+    at async b.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:36685)
+    at async er.zb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2308:29120)
+    at async er.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2308:27567)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:32834
+2023-08-30 00:26:25.619 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist'
+    at Function.create (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30291)
+    at i (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30407)
+    at t.ab (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:37481)
+    at t.delete (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:35129)
+2023-08-30 00:26:25.623 [error] Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist': NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist'
+    at Function.create (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30291)
+    at i (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30407)
+    at t.ab (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:37481)
+    at t.delete (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:35129)
+2023-08-30 00:26:27.498 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist'
+    at Function.create (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30291)
+    at i (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30407)
+    at t.ab (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:37481)
+    at t.delete (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:35129)
+2023-08-30 00:26:27.507 [error] Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist': NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist'
+    at Function.create (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30291)
+    at i (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30407)
+    at t.ab (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:37481)
+    at t.delete (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:35129)
+2023-08-30 00:26:29.371 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist'
+    at Function.create (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30291)
+    at i (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30407)
+    at t.ab (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:37481)
+    at t.delete (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:35129)
+2023-08-30 00:26:29.386 [error] Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist': NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/iiitd/Workspace/frontend/dist'
+    at Function.create (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30291)
+    at i (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:87:30407)
+    at t.ab (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:37481)
+    at t.delete (/home/iiitd/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:92:35129)

@@ -1,0 +1,11 @@
+indicator-caps-lock
+image=~/Pictures/Wallp/image.png
+indicator-radius=128
+indicator-thickness=8
+indicator-y-position=800
+inside-color=4e4e4e
+ring-color=d35d6e
+# separator-color=b0b4bc
+line-uses-inside
+line-uses-ring
+# indicator-x-position=1600

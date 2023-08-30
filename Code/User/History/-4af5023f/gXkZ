@@ -1,0 +1,227 @@
+: 1692962456:0;ls
+: 1692962457:0;la
+: 1692962464:0;la 
+: 1692962466:0;clear
+: 1692962499:0;wpctl get-volume @DEFAULT_AUDIO_SINK@
+: 1692962532:0;p10k
+: 1692972735:0;eww {EWW_NET}
+: 1692972739:0;eww EWW_NET
+: 1692972746:0;eww get EWW_NET
+: 1692972759:0;eww get EWW_TIME
+: 1692973168:0;sysbench --test=cpu run
+: 1692973371:0;yay -S envycontrol
+: 1692973548:0;sudo envycontrol -s integrated
+: 1692973600:0;sudo envycontrol --querry
+: 1692973606:0;sudo envycontrol -q
+: 1692973610:0;lspci
+: 1692973676:0;sudo powertop
+: 1692973788:0;sudo systemctl status bluetooth
+: 1692973877:0;rfkill block bluetooth
+: 1692973886:0;sudo powertop
+: 1692974002:0;sudo rfkill unblock bluetooth
+: 1692974079:0;sudo kill --help
+: 1692974191:0;sudo kill -p 563
+: 1692974224:0;sudo kill --help
+: 1692974272:0;sudo kill 563
+: 1692974305:0;eww daemon
+: 1692974337:0;eww open bar
+: 1692974440:0;sudo rfkill block btusb
+: 1692974454:0;sudo rfkill block bluetooth
+: 1692974535:0;sudo rfkill unblock bluetooth
+: 1692974562:0;blueman-manager
+: 1692974638:0;sudo powertop
+: 1692974674:0;lscpi | grep nvidia
+: 1692974679:0;lspci | grep nvidia
+: 1692974683:0;lspci | grep intel
+: 1692974686:0;lspci | grep Intel
+: 1692974691:0;lspci | grep Nvidia
+: 1692974780:0;mako
+: 1692974785:0;mako --help
+: 1692974934:0;fc-list | grep Jet
+: 1692975284:0;pacman -S xdg-desktop-portal-hyprland
+: 1692975286:0;sudo pacman -S xdg-desktop-portal-hyprland
+: 1692975337:0;pacman -Q | grep xdg-desktop-portal-\
+
+: 1692975361:0;sudo pacman -S grim slurp
+: 1692975409:0;vim .config/hypr/startup.sh
+: 1692975977:0;fc-list | grep "Jet"
+: 1692976066:0;makoctl --help
+: 1692976077:0;makoctl --mode
+: 1692976080:0;makoctl mode
+: 1692976099:0;makoctl menu
+: 1692976132:0;fc-list
+: 1692976537:0;yay -S ncspot
+: 1692976544:0;yay -S ncspot-git
+: 1692977027:0;yay -S udisk2
+: 1692977048:0;yay -S udisks2
+: 1692977096:0;udiskie
+: 1692977122:0;sudo pacman -S udiskie
+: 1692977135:0;udiskie -a -t
+: 1692977146:0;udiskie
+: 1692977208:0;ranger
+: 1692977312:0;sudo systemctl status bluetooth
+: 1692977318:0;sudo powertop
+: 1692980371:0;ncspot
+: 1692980697:0;yay -Rnsc ncspot
+: 1692980723:0;yay -Rnsc ncspot-git
+: 1692980894:0;pacman -Qdi
+: 1692980921:0;clear
+: 1692980922:0;grep -i installed /var/log/pacman.log
+: 1692980969:0;kitty
+: 1692981297:0;hyprctl --help
+: 1692981494:0;vim test.sh
+: 1692981516:0;chmod +x test.sh
+: 1692981519:0;./test.sh
+: 1692981523:0;vim test.sh
+: 1692981553:0;ls
+: 1692981569:0;rm -rf powerlevel10k tmp
+: 1692981570:0;ls
+: 1692981575:0;cd .config/hypr/
+: 1692981577:0;vim hyprland.conf
+: 1692981746:0;cd .config/hypr
+: 1692981747:0;ls
+: 1692981750:0;cat startup.sh
+: 1692981805:0;vim .config/hypr/hyprland.conf
+: 1692981897:0;dbus-update-activation-environment --help
+: 1692982361:0;sudo pacman -S hyprpaper
+: 1692982391:0;vim .config/hypr/hyprland.conf
+: 1692982515:0;hyprpaper --help
+: 1692982533:0;cd Pictures
+: 1692982534:0;ls
+: 1692982633:0;mkdir Wallp
+: 1692982634:0;cd Wallp
+: 1692982650:0;vim ~/.config/hypr/hyprland.conf
+: 1692982655:0;vim ~/.config/hypr/startup.sh
+: 1692982685:0;vim ~/.config/hypr/hyprland.conf
+: 1692983017:0;sudo pacman -Rnsc hyprpaper
+: 1692983035:0;vim .config/hypr/startup.sh
+: 1692983099:0;vim .config/hypr/hyprpaper.conf
+: 1692983281:0;ipc = off
+: 1692983286:0;vim .config/hypr/hyprpaper.conf
+: 1692983345:0;hyprctl hyprpaper
+: 1692983358:0;sudo pacman -S hyprpaper
+: 1692983367:0;vim .config/hypr/startup.sh
+: 1692983435:0;hyprpaper
+: 1692983505:0;sudo pacman -Rnsc hyprpaper
+: 1692983517:0;hyprctl hyprpaper
+: 1692983521:0;sudo hyprctl hyprpaper
+: 1692983527:0;hyprctl hyprpaper
+: 1692983609:0;sudo pacman -S hyprpaper
+: 1692983626:0;hyprctl hyprpaper
+: 1692983630:0;hyprpaper
+: 1692983677:0;vim .config/hypr/startup.sh
+: 1692983730:0;hyprctl --device
+: 1692983740:0;hyprctl monitors
+: 1692983753:0;vim .config/hypr/hyprpaper.conf
+: 1692983779:0;hyprpapper
+: 1692983781:0;hyprpaper
+: 1692983789:0;hyprctl hyprpaper
+: 1692983849:0;cd /tmp
+: 1692983855:0;ls -l hypr
+: 1692983862:0;ls -la
+: 1692983877:0;:q
+: 1692983904:0;hyprctl version
+: 1692984063:0;vim .config/hypr/hyprpaper.conf
+: 1692984107:0;vim .config/hypr/hyprland.conf
+: 1692984140:0;hyprctl monitors
+: 1692984191:0;hyprctl hyprpaper wallpaper "eDP-1,~/Pictures/Wallp/image.png"
+: 1692984204:0;hyprpaper wallpaper "eDP-1,~/Pictures/Wallp/image.png"
+: 1692984218:0;hyprpaper  "eDP-1,~/Pictures/Wallp/image.png"
+: 1692984238:0;vim .config/hypr/hyprpaper.conf
+: 1692984246:0;cd .config/hypr
+: 1692984246:0;ls
+: 1692984255:0;rm hyprpaper.conf
+: 1692984262:0;sudo pacman -Rnsc hyprpaper
+: 1692984314:0;vim .config/hypr/hyprland.conf
+: 1692984320:0;vim .config/hypr/startup.sh
+: 1692984386:0;sudo pacman -S swaybg
+: 1692984395:0;swaybg --help
+: 1692984400:0;swaybg -h
+: 1692984429:0;swaybg -i ~/Pictures/Wallp/image.png
+: 1692984450:0;swaybg -i ~/Pictures/Wallp/image.png -m center
+: 1692984462:0;swaybg -i ~/Pictures/Wallp/image.png -m fill
+: 1692984468:0;swaybg -i ~/Pictures/Wallp/image.png -m fit
+: 1692984527:0;vim .config/hypr/hyprland.conf
+: 1692984530:0;vim .config/hypr/startup.sh
+: 1692984547:0;swaybg -i ~/Pictures/Wallp/image.png
+: 1692984555:0;swaybg -i ~/Pictures/Wallp/image.png -m fit
+: 1692984564:0;swaybg -i ~/Pictures/Wallp/wallpaperflare.com_wallpaper.jpg
+: 1692984572:0;swaybg -i ~/Pictures/Wallp/image.png
+: 1692984700:0;vim .config/hypr/hyprland.conf
+: 1692985572:0;vim .config/eww/eww.yuck
+: 1692987729:0;uaname -a
+: 1692987734:0;uname -a
+: 1692987737:0;clear
+: 1692987741:0;ls -la
+: 1692987744:0;clear
+: 1692987744:0;la
+: 1692987801:0;vim .config/hypr/hyprland.conf
+: 1692989266:0;ls
+: 1692989274:0;vim .config/hypr/hyprland.conf
+: 1692989302:0;ls
+: 1692989320:0;vim .config/hypr/hyprland.conf
+: 1692989322:0;:q
+: 1692989370:0;sudo powertop --auto-tune
+: 1692989402:0;sudo powertop
+: 1692991176:0;eww open powermenu
+: 1692991192:0;clear
+: 1692991205:0;eww open powermenu
+: 1692991209:0;eww open bar
+: 1692991211:0;eww open powermenu
+: 1692991217:0;eww daemon --restart
+: 1692991236:0;eww open bar
+: 1692991238:0;eww open powermenu
+: 1692991310:0;eww daemon --restart
+: 1692991314:0;eww open bar
+: 1692991316:0;eww open powermenu
+: 1693026826:0;vim .config/hypr/hyprland.conf
+: 1693029449:0;sudo powertop
+: 1693029532:0;sudo powertop --help
+: 1693029557:0;sudo powertop -c
+: 1693029954:0;sudo powertop
+: 1693030974:0;eww open powermenu
+: 1693034455:0;eww close powermenu
+: 1693034519:0;eww open powermenu
+: 1693035316:0;systemctl --help
+: 1693035377:0;systemctl poweroff --help
+: 1693035421:0;clear
+: 1693035422:0;systemctl poweroff --help
+: 1693035528:0;systemctl poweroff -i
+: 1693035638:0;systemctl --user reboot
+: 1693035735:0;sudo vim /etc/polkit-1/rules.d/service-auth.rules
+: 1693035798:0;eww open powermenu
+: 1693035840:0;vim .config/hypr/hyprland.conf
+: 1693035853:0;systemctl start bluetooth
+: 1693035859:0;systemctl stop bluetooth
+: 1693035937:0;systemctl status bluetooth
+: 1693036067:0;vim .config/hypr/hyprland.conf
+: 1693036363:0;eww close powermenu
+: 1693036830:0;sudo pacman -S swaylock
+: 1693036840:0;swaylock --help
+: 1693036895:0;swaylock
+: 1693037130:0;swaylock -C
+: 1693037169:0;swaylock --screenshots --clock --indicator-idle-visible
+: 1693037406:0;lid close
+: 1693037443:0;hyprctl devices
+: 1693037508:0;vim .config/hypr/hyprland.conf
+: 1693037612:0;eww close powermenu
+: 1693038348:0;eww close powermenu bar
+: 1693038354:0;eww open powermenu bar
+: 1693038359:0;eww open powermenu 
+: 1693038361:0;eww close powermenu bar
+: 1693038370:0;eww open powermenu bar
+: 1693038383:0;eww open bar powermenu
+: 1693038388:0;eww open --help
+: 1693038419:0;eww --toggle bar
+: 1693038437:0;eww -s --toggle bar
+: 1693038452:0;eww -- --toggle bar
+: 1693038457:0;eww --toggle bar
+: 1693038463:0;eww daemon --toggle
+: 1693038472:0;eww daemon --toggle bar
+: 1693038476:0;eww --help
+: 1693038532:0;eww open-many bar powermenu
+: 1693038539:0;eww close bar powermenu
+: 1693038543:0;eww open-many bar powermenu
+: 1693038552:0;eww open --toggle powermenu
+: 1693038578:0;vim .config/hypr/hyprland.conf
+: 1693039990:0;sudo vim /etc/systemd/logind.conf
