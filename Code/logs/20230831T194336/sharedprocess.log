@@ -1,0 +1,13 @@
+2023-08-31 19:46:33.684 [error] [uncaught exception in sharedProcess]: net::ERR_NETWORK_CHANGED: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49312)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+2023-08-31 19:46:33.685 [error] [uncaught exception in sharedProcess]: net::ERR_NETWORK_CHANGED: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49312)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+2023-08-31 19:48:31.827 [info] [SharedProcessTunnelService] Created tunnel 1: 127.0.0.1:8000 (local) to 127.0.0.1:8000 (remote).
+2023-08-31 19:48:43.452 [info] Creating a socket (renderer-Tunnel-a4320238-f26a-40d8-8b34-b991fcd12dd3)...
+2023-08-31 19:48:43.559 [info] Creating a socket (renderer-Tunnel-a4320238-f26a-40d8-8b34-b991fcd12dd3) was successful after 95 ms.
+2023-08-31 19:50:07.959 [info] Creating a socket (renderer-Tunnel-c0d32777-2c6b-4e32-b4db-61b300d795c5)...
+2023-08-31 19:50:08.107 [info] Creating a socket (renderer-Tunnel-c0d32777-2c6b-4e32-b4db-61b300d795c5) was successful after 147 ms.
+2023-08-31 19:51:03.657 [info] Creating a socket (renderer-Tunnel-e3e2bec0-2d42-4dc0-a121-502beaa47d96)...
+2023-08-31 19:51:04.113 [info] Creating a socket (renderer-Tunnel-e3e2bec0-2d42-4dc0-a121-502beaa47d96) was successful after 455 ms.

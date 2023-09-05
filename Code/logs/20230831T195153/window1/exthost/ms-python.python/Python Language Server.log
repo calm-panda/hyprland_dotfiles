@@ -1,0 +1,8 @@
+2023-08-31 21:53:44.020 [info] [Info  - 9:53:44 PM] (22094) Pylance language server 2023.8.50 (pyright f98da719) starting
+2023-08-31 21:53:44.022 [info] [Info  - 9:53:44 PM] (22094) Server root directory: /home/panda/.vscode/extensions/ms-python.vscode-pylance-2023.8.50/dist
+2023-08-31 21:53:44.022 [info] [Info  - 9:53:44 PM] (22094) Starting service instance "web-server"
+2023-08-31 21:53:44.054 [info] [Info  - 9:53:44 PM] (22094) Setting pythonPath for service "web-server": "/home/panda/Workspace/web-server/env/bin/python"
+2023-08-31 21:53:44.064 [info] [Warn  - 9:53:44 PM] (22094) stubPath /home/panda/Workspace/web-server/typings is not a valid directory.
+2023-08-31 21:53:44.094 [info] [Info  - 9:53:44 PM] (22094) Assuming Python version 3.11
+2023-08-31 21:53:44.202 [info] [Info  - 9:53:44 PM] (22094) Auto-excluding /home/panda/Workspace/web-server/env
+2023-08-31 21:53:44.205 [info] [Info  - 9:53:44 PM] (22094) Found 3 source files

@@ -3,12 +3,14 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/panda": "__default__profile__",
-            "file:///home/panda/Workspace": "__default__profile__",
-            "file:///home/panda/Workspace/web-server": "__default__profile__",
-            "vscode-remote://ssh-remote%2Bbtp/storage2/web_server/ankit": "__default__profile__",
-            "file:///home/panda/.config/eww": "__default__profile__",
             "file:///home/panda/.config": "__default__profile__",
-            "vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace": "__default__profile__"
+            "vscode-remote://ssh-remote%2Bfcs/": "__default__profile__",
+            "vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace": "__default__profile__",
+            "file:///home/panda/.config/eww": "__default__profile__",
+            "file:///home/panda/Workspace/web-server": "__default__profile__",
+            "vscode-remote://ssh-remote%2Bbtp/storage2/web_server": "__default__profile__",
+            "file:///home/panda/Workspace": "__default__profile__",
+            "vscode-remote://ssh-remote%2Bbtp/storage2/web_server/ankit": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -18,17 +20,17 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace",
-                "remoteAuthority": "ssh-remote+fcs"
+                "folderUri": "vscode-remote://ssh-remote%2Bbtp/storage2/web_server/ankit",
+                "remoteAuthority": "ssh-remote+btp"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "vscode-remote://ssh-remote%2Bfcs/home/iiitd/Workspace",
-            "backupPath": "/home/panda/.config/Code/Backups/93b9149487d89f4611cbf3aa93c4acaa",
-            "remoteAuthority": "ssh-remote+fcs",
+            "folder": "vscode-remote://ssh-remote%2Bbtp/storage2/web_server/ankit",
+            "backupPath": "/home/panda/.config/Code/Backups/b9079790374a97547ac0cda446906f34",
+            "remoteAuthority": "ssh-remote+btp",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -112,40 +114,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/iiitd/Workspace",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+fcs"
-                                    },
-                                    "remoteAuthority": "ssh-remote+fcs",
-                                    "enabled": true,
-                                    "label": "~/Workspace [SSH: fcs]"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/panda/.config",
-                                        "path": "/home/panda/.config",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/panda/.config"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/panda/.config/eww",
-                                        "path": "/home/panda/.config/eww",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/panda/.config/eww"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "vscode-remote://ssh-remote%2Bbtp/storage2/web_server/ankit",
                                         "path": "/storage2/web_server/ankit",
                                         "scheme": "vscode-remote",
@@ -154,17 +122,6 @@
                                     "remoteAuthority": "ssh-remote+btp",
                                     "enabled": true,
                                     "label": "/storage2/web_server/ankit [SSH: btp]"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/panda/Workspace/web-server",
-                                        "path": "/home/panda/Workspace/web-server",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/panda/Workspace/web-server"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -181,6 +138,77 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "vscode-remote://ssh-remote%2Bbtp/storage2/web_server",
+                                        "path": "/storage2/web_server",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+btp"
+                                    },
+                                    "remoteAuthority": "ssh-remote+btp",
+                                    "enabled": true,
+                                    "label": "/storage2/web_server [SSH: btp]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Workspace/web-server",
+                                        "path": "/home/panda/Workspace/web-server",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Workspace/web-server"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/.config/eww",
+                                        "path": "/home/panda/.config/eww",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/.config/eww"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/iiitd/Workspace",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+fcs"
+                                    },
+                                    "remoteAuthority": "ssh-remote+fcs",
+                                    "enabled": true,
+                                    "label": "~/Workspace [SSH: fcs]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://ssh-remote%2Bfcs/",
+                                        "path": "/",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+fcs"
+                                    },
+                                    "remoteAuthority": "ssh-remote+fcs",
+                                    "enabled": true,
+                                    "label": "/ [SSH: fcs]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/.config",
+                                        "path": "/home/panda/.config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/panda",
                                         "path": "/home/panda",
                                         "scheme": "file"
@@ -190,6 +218,83 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Downloads/response_1693497553303.csv",
+                                        "path": "/home/panda/Downloads/response_1693497553303.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Downloads/response_1693497553303.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Workspace/web-server/api.py",
+                                        "path": "/home/panda/Workspace/web-server/api.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Workspace/web-server/api.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Downloads/response_1693491664483.csv",
+                                        "path": "/home/panda/Downloads/response_1693491664483.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Downloads/response_1693491664483.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Downloads/response_1693471584010.csv",
+                                        "path": "/home/panda/Downloads/response_1693471584010.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Downloads/response_1693471584010.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Downloads/response_1693419682680.csv",
+                                        "path": "/home/panda/Downloads/response_1693419682680.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Downloads/response_1693419682680.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Downloads/response_1693419402574.csv",
+                                        "path": "/home/panda/Downloads/response_1693419402574.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Downloads/response_1693419402574.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/panda/Downloads/response_1693419246227.csv",
+                                        "path": "/home/panda/Downloads/response_1693419246227.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/panda/Downloads/response_1693419246227.csv"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -225,17 +330,6 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/panda/.zsh_history"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/panda/.zshrc",
-                                        "path": "/home/panda/.zshrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/panda/.zshrc"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -274,18 +368,15 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -295,13 +386,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -431,13 +515,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -490,13 +572,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -662,8 +742,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -783,13 +862,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -855,6 +927,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -878,8 +954,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -891,8 +966,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -901,8 +975,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1565,11 +1638,6 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",

@@ -1,0 +1,63 @@
+[22:35:29.654] Log Level: 2
+[22:35:29.666] VS Code version: 1.81.1
+[22:35:29.666] Remote-SSH version: remote-ssh@0.102.0
+[22:35:29.666] linux x64
+[22:35:29.672] SSH Resolver called for "ssh-remote+btp", attempt 1
+[22:35:29.673] "remote.SSH.useLocalServer": true
+[22:35:29.673] "remote.SSH.path": undefined
+[22:35:29.673] "remote.SSH.configFile": undefined
+[22:35:29.673] "remote.SSH.useFlock": true
+[22:35:29.673] "remote.SSH.lockfilesInTmp": false
+[22:35:29.674] "remote.SSH.localServerDownload": auto
+[22:35:29.674] "remote.SSH.remoteServerListenOnSocket": false
+[22:35:29.674] "remote.SSH.showLoginTerminal": false
+[22:35:29.674] "remote.SSH.defaultExtensions": []
+[22:35:29.674] "remote.SSH.loglevel": 2
+[22:35:29.674] "remote.SSH.enableDynamicForwarding": true
+[22:35:29.675] "remote.SSH.enableRemoteCommand": false
+[22:35:29.675] "remote.SSH.serverPickPortsFromRange": {}
+[22:35:29.675] "remote.SSH.serverInstallPath": {}
+[22:35:29.680] SSH Resolver called for host: btp
+[22:35:29.680] Setting up SSH remote "btp"
+[22:35:29.685] Acquiring local install lock: /tmp/vscode-remote-ssh-62d7b149-install.lock
+[22:35:29.686] Looking for existing server data file at /home/panda/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-62d7b149-6c3e3dba23e8fadc360aed75ce363ba185c49794-0.102.0/data.json
+[22:35:29.687] Using commit id "6c3e3dba23e8fadc360aed75ce363ba185c49794" and quality "stable" for server
+[22:35:29.694] Install and start server if needed
+[22:35:29.699] PATH: /sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin
+[22:35:29.699] Checking ssh with "ssh -V"
+[22:35:29.708] > OpenSSH_9.4p1, OpenSSL 3.1.2 1 Aug 2023
+
+[22:35:29.711] askpass server listening on /run/user/1000/vscode-ssh-askpass-41cc4ef906eb5dc56198bc4a3bc61978df1c3ac0.sock
+[22:35:29.712] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-6ac07a2c019e847d4f77bf95be04bc7f2b969b5c.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","44459","-o","ConnectTimeout=15","btp"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/panda/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-62d7b149-6c3e3dba23e8fadc360aed75ce363ba185c49794-0.102.0/data.json"}
+[22:35:29.712] Local server env: {"SHELL":"/bin/zsh","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-41cc4ef906eb5dc56198bc4a3bc61978df1c3ac0.sock"}
+[22:35:29.721] Spawned 28250
+[22:35:29.837] > local-server-1> Running ssh connection command: "-v -T -D 44459 -o ConnectTimeout=15 btp"
+[22:35:29.842] > local-server-1> Spawned ssh, pid=28259
+[22:35:29.845] stderr> OpenSSH_9.4p1, OpenSSL 3.1.2 1 Aug 2023
+[22:35:44.867] stderr> ssh: connect to host 192.168.16.203 port 22: Connection timed out
+[22:35:44.869] > local-server-1> ssh child died, shutting down
+[22:35:44.875] Local server exit: 0
+[22:35:44.877] Received install output: local-server-1> Running ssh connection command: "-v -T -D 44459 -o ConnectTimeout=15 btp"
+local-server-1> Spawned ssh, pid=28259
+OpenSSH_9.4p1, OpenSSL 3.1.2 1 Aug 2023
+ssh: connect to host 192.168.16.203 port 22: Connection timed out
+local-server-1> ssh child died, shutting down
+
+[22:35:44.890] Resolver error: Error: The connection timed out
+	at m.Offline (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:584196)
+	at /home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:581580
+	at t.handleInstallOutput (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:581794)
+	at Object.e [as tryInstallWithLocalServer] (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:623656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:643708
+	at async t.withShowDetailsEvent (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:647428)
+	at async /home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:622128
+	at async C (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:618634)
+	at async t.resolveWithLocalServer (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:621743)
+	at async t.resolve (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:645036)
+	at async /home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:720916
+[22:35:44.905] ------
+
+
+
+

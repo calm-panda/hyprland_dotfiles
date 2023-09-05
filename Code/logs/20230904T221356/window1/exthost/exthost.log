@@ -1,0 +1,97 @@
+2023-09-04 22:13:57.826 [info] Extension host with pid 1519 started
+2023-09-04 22:13:57.826 [info] Skipping acquiring lock for /home/panda/.config/Code/User/workspaceStorage/1ea18a5da3c0ee093ddc523a8e7e269b.
+2023-09-04 22:13:57.832 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2023-09-04 22:13:57.837 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2023-09-04 22:13:57.897 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+btp
+2023-09-04 22:13:57.897 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+btp...
+2023-09-04 22:13:57.897 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2023-09-04 22:13:58.898 [info] [resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2023-09-04 22:13:59.898 [info] [resolveAuthority(ssh-remote,1)][2001ms] waiting...
+2023-09-04 22:14:00.899 [info] [resolveAuthority(ssh-remote,1)][3002ms] waiting...
+2023-09-04 22:14:01.901 [info] [resolveAuthority(ssh-remote,1)][4004ms] waiting...
+2023-09-04 22:14:02.901 [info] [resolveAuthority(ssh-remote,1)][5004ms] waiting...
+2023-09-04 22:14:03.902 [info] [resolveAuthority(ssh-remote,1)][6005ms] waiting...
+2023-09-04 22:14:04.903 [info] [resolveAuthority(ssh-remote,1)][7006ms] waiting...
+2023-09-04 22:14:05.904 [info] [resolveAuthority(ssh-remote,1)][8007ms] waiting...
+2023-09-04 22:14:06.905 [info] [resolveAuthority(ssh-remote,1)][9008ms] waiting...
+2023-09-04 22:14:07.905 [info] [resolveAuthority(ssh-remote,1)][10008ms] waiting...
+2023-09-04 22:14:08.907 [info] [resolveAuthority(ssh-remote,1)][11010ms] waiting...
+2023-09-04 22:14:09.908 [info] [resolveAuthority(ssh-remote,1)][12011ms] waiting...
+2023-09-04 22:14:10.909 [info] [resolveAuthority(ssh-remote,1)][13012ms] waiting...
+2023-09-04 22:14:11.910 [info] [resolveAuthority(ssh-remote,1)][14013ms] waiting...
+2023-09-04 22:14:12.911 [info] [resolveAuthority(ssh-remote,1)][15014ms] waiting...
+2023-09-04 22:14:13.128 [error] [resolveAuthority(ssh-remote,1)][15224ms] returned an error The connection timed out
+2023-09-04 22:14:13.298 [info] Eager extensions activated
+2023-09-04 22:14:13.409 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 22:14:13.805 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 22:14:13.888 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-09-04 22:14:13.938 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-internal.setActiveFolders'
+2023-09-04 22:14:13.964 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-04 22:14:14.001 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-04 22:14:29.322 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-04 22:14:29.325 [error] Canceled: Canceled
+	at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:56634)
+	at t.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8020)
+	at N.<computed>.T.charCodeAt.N.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5459)
+	at a.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:77241)
+	at a.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76679)
+	at v.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76000)
+	at a.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:77777)
+	at a.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76772)
+	at a.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76679)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20977)
+	at t.shutdown (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:646929)
+	at e.deactivate (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:723956)
+	at r.Z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9494)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7582
+	at Array.map (<anonymous>)
+	at r.S (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7570)
+	at r.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7842)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 22:14:29.326 [info] Extension host with pid 1519 exiting with code 0
+2023-09-04 22:14:30.124 [info] Extension host with pid 1743 started
+2023-09-04 22:14:30.124 [info] Skipping acquiring lock for /home/panda/.config/Code/User/workspaceStorage/1ea18a5da3c0ee093ddc523a8e7e269b.
+2023-09-04 22:14:30.124 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2023-09-04 22:14:30.132 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2023-09-04 22:14:30.163 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+btp
+2023-09-04 22:14:30.163 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+btp...
+2023-09-04 22:14:30.163 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2023-09-04 22:14:31.163 [info] [resolveAuthority(ssh-remote,1)][1000ms] waiting...
+2023-09-04 22:14:32.164 [info] [resolveAuthority(ssh-remote,1)][2001ms] waiting...
+2023-09-04 22:14:32.212 [info] [resolveAuthority(ssh-remote,1)][2049ms] setting tunnel factory...
+2023-09-04 22:14:32.212 [info] [resolveAuthority(ssh-remote,1)][2049ms] returned 127.0.0.1:44045
+2023-09-04 22:14:33.843 [info] Eager extensions activated
+2023-09-04 22:14:33.950 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 22:14:34.210 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 22:14:34.236 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-internal.setActiveFolders'
+2023-09-04 22:14:34.340 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-04 22:14:35.363 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-04 23:55:08.641 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-04 23:55:08.648 [error] Canceled: Canceled
+	at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:56634)
+	at t.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8020)
+	at N.<computed>.T.charCodeAt.N.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5459)
+	at a.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:77241)
+	at a.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76679)
+	at v.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76000)
+	at a.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:77777)
+	at a.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76772)
+	at a.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76679)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20977)
+	at t.shutdown (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:646929)
+	at e.deactivate (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:723956)
+	at r.Z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9494)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7582
+	at Array.map (<anonymous>)
+	at r.S (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7570)
+	at r.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7842)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 23:55:08.648 [info] Extension host with pid 1743 exiting with code 0

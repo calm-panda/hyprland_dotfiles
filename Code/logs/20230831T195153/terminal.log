@@ -1,0 +1,70 @@
+2023-08-31 19:52:16.864 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-31 19:52:27.659 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 1754.90ms
+ptyhostservice<->ptyhost: 0.68ms []
+2023-08-31 19:52:27.659 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 1747.00ms
+ptyhostservice<->ptyhost: 0.51ms []
+2023-08-31 19:52:27.659 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 1746.70ms
+ptyhostservice<->ptyhost: 0.49ms []
+2023-08-31 19:52:27.661 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 1397.70ms
+ptyhostservice<->ptyhost: 0.39ms []
+2023-08-31 20:23:42.150 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-31 20:23:42.875 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 105.70ms
+ptyhostservice<->ptyhost: 4.86ms []
+2023-08-31 20:23:42.879 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 109.80ms
+ptyhostservice<->ptyhost: 15.39ms []
+2023-08-31 20:23:42.881 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 111.10ms
+ptyhostservice<->ptyhost: 2.41ms []
+2023-08-31 20:23:42.881 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 111.90ms
+ptyhostservice<->ptyhost: 4.31ms []
+2023-08-31 21:54:06.354 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-31 21:54:08.659 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 261.10ms
+ptyhostservice<->ptyhost: 0.34ms []
+2023-08-31 21:54:08.660 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 260.80ms
+ptyhostservice<->ptyhost: 0.20ms []
+2023-08-31 21:54:08.662 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 263.60ms
+ptyhostservice<->ptyhost: 6.36ms []
+2023-08-31 21:54:08.663 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 263.30ms
+ptyhostservice<->ptyhost: 6.27ms []
+2023-08-31 21:54:22.999 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-31 21:54:28.583 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 79.40ms
+ptyhostservice<->ptyhost: 0.60ms []
+2023-08-31 21:54:28.583 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 79.20ms
+ptyhostservice<->ptyhost: 0.38ms []
+2023-08-31 21:54:28.583 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 79.50ms
+ptyhostservice<->ptyhost: 0.29ms []
+2023-08-31 21:54:28.583 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 79.50ms
+ptyhostservice<->ptyhost: 0.27ms []
+2023-08-31 22:35:25.999 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["The connection timed out"]
+2023-08-31 22:35:45.054 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["The connection timed out"]
+2023-08-31 22:36:04.426 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["The connection timed out"]
+2023-08-31 22:36:31.540 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["The connection timed out"]
+2023-08-31 22:36:51.010 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["The connection timed out"]
+2023-08-31 22:37:46.333 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Cannot read properties of undefined (reading 'cwd')"]
+2023-08-31 22:37:52.159 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 952.60ms
+ptyhostservice<->ptyhost: 0.88ms []
+2023-08-31 22:37:52.159 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 944.60ms
+ptyhostservice<->ptyhost: 0.63ms []
+2023-08-31 22:37:52.160 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 944.40ms
+ptyhostservice<->ptyhost: 0.29ms []
+2023-08-31 22:37:52.163 [info] Latency measurements for ssh-remote+btp backend
+window<->ptyhostservice<->ptyhost: 948.30ms
+ptyhostservice<->ptyhost: 0.25ms []

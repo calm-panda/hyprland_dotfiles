@@ -1,0 +1,35 @@
+[19:43:37.635] Log Level: 2
+[19:43:37.651] VS Code version: 1.81.1
+[19:43:37.651] Remote-SSH version: remote-ssh@0.102.0
+[19:43:37.651] linux x64
+[19:43:37.660] SSH Resolver called for "ssh-remote+btp", attempt 1
+[19:43:37.663] "remote.SSH.useLocalServer": true
+[19:43:37.664] "remote.SSH.path": undefined
+[19:43:37.665] "remote.SSH.configFile": undefined
+[19:43:37.665] "remote.SSH.useFlock": true
+[19:43:37.665] "remote.SSH.lockfilesInTmp": false
+[19:43:37.666] "remote.SSH.localServerDownload": auto
+[19:43:37.666] "remote.SSH.remoteServerListenOnSocket": false
+[19:43:37.666] "remote.SSH.showLoginTerminal": false
+[19:43:37.667] "remote.SSH.defaultExtensions": []
+[19:43:37.667] "remote.SSH.loglevel": 2
+[19:43:37.667] "remote.SSH.enableDynamicForwarding": true
+[19:43:37.668] "remote.SSH.enableRemoteCommand": false
+[19:43:37.668] "remote.SSH.serverPickPortsFromRange": {}
+[19:43:37.671] "remote.SSH.serverInstallPath": {}
+[19:43:37.675] SSH Resolver called for host: btp
+[19:43:37.676] Setting up SSH remote "btp"
+[19:43:37.682] Acquiring local install lock: /tmp/vscode-remote-ssh-62d7b149-install.lock
+[19:43:39.185] Starting to look for password prompt from another window
+[19:45:37.990] Resolver error: Error: Timed out while waiting for the local startup lock
+	at m.Create (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:584145)
+	at /home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:618476
+	at n (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:493836)
+	at p (/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:493185)
+	at /home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/extension.js:1:492775
+	at FSReqCallback.oncomplete (node:fs:209:5)
+[19:45:37.997] ------
+
+
+
+

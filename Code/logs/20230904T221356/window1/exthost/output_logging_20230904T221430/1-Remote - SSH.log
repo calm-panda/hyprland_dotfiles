@@ -1,0 +1,155 @@
+[22:14:30.146] Log Level: 2
+[22:14:30.159] VS Code version: 1.81.1
+[22:14:30.159] Remote-SSH version: remote-ssh@0.102.0
+[22:14:30.159] linux x64
+[22:14:30.165] SSH Resolver called for "ssh-remote+btp", attempt 1
+[22:14:30.167] "remote.SSH.useLocalServer": true
+[22:14:30.167] "remote.SSH.path": undefined
+[22:14:30.167] "remote.SSH.configFile": undefined
+[22:14:30.168] "remote.SSH.useFlock": true
+[22:14:30.168] "remote.SSH.lockfilesInTmp": false
+[22:14:30.168] "remote.SSH.localServerDownload": auto
+[22:14:30.168] "remote.SSH.remoteServerListenOnSocket": false
+[22:14:30.169] "remote.SSH.showLoginTerminal": false
+[22:14:30.169] "remote.SSH.defaultExtensions": []
+[22:14:30.169] "remote.SSH.loglevel": 2
+[22:14:30.170] "remote.SSH.enableDynamicForwarding": true
+[22:14:30.170] "remote.SSH.enableRemoteCommand": false
+[22:14:30.170] "remote.SSH.serverPickPortsFromRange": {}
+[22:14:30.170] "remote.SSH.serverInstallPath": {}
+[22:14:30.177] SSH Resolver called for host: btp
+[22:14:30.178] Setting up SSH remote "btp"
+[22:14:30.182] Acquiring local install lock: /tmp/vscode-remote-ssh-62d7b149-install.lock
+[22:14:30.184] Looking for existing server data file at /home/panda/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-62d7b149-6c3e3dba23e8fadc360aed75ce363ba185c49794-0.102.0/data.json
+[22:14:30.186] Using commit id "6c3e3dba23e8fadc360aed75ce363ba185c49794" and quality "stable" for server
+[22:14:30.192] Install and start server if needed
+[22:14:30.199] PATH: /sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin
+[22:14:30.199] Checking ssh with "ssh -V"
+[22:14:30.209] > OpenSSH_9.4p1, OpenSSL 3.1.2 1 Aug 2023
+
+[22:14:30.214] askpass server listening on /run/user/1000/vscode-ssh-askpass-5836407d74f1c041bf5dea5d2d1f3004750b665a.sock
+[22:14:30.214] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-7298c3828d585b179aa969647196477736519332.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","43675","-o","ConnectTimeout=15","btp"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/panda/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-62d7b149-6c3e3dba23e8fadc360aed75ce363ba185c49794-0.102.0/data.json"}
+[22:14:30.214] Local server env: {"SHELL":"/bin/zsh","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/panda/.vscode/extensions/ms-vscode-remote.remote-ssh-0.102.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-5836407d74f1c041bf5dea5d2d1f3004750b665a.sock"}
+[22:14:30.219] Spawned 1766
+[22:14:30.333] > local-server-1> Running ssh connection command: "-v -T -D 43675 -o ConnectTimeout=15 btp"
+[22:14:30.338] > local-server-1> Spawned ssh, pid=1774
+[22:14:30.342] stderr> OpenSSH_9.4p1, OpenSSL 3.1.2 1 Aug 2023
+[22:14:30.693] stderr> debug1: Server host key: ssh-ed25519 SHA256:+DATUrYREP0BSwEjvWmY26KRE98fjVAacK1yr5wEiSE
+[22:14:31.055] stderr> Authenticated to 192.168.16.203 ([192.168.16.203]:22) using "publickey".
+[22:14:31.528] > Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.19.0-41-generic x86_64)
+> 
+>  * Documentation:  https://help.ubuntu.com
+>  * Management:     https://landscape.canonical.com
+>  * Support:        https://ubuntu.com/advantage
+> 
+> Expanded Security Maintenance for Applications is not enabled.
+> 
+> 69 updates can be applied immediately.
+> To see these additional updates run: apt list --upgradable
+> 
+> Enable ESM Apps to receive additional future security updates.
+> See https://ubuntu.com/esm or run: sudo pro status
+> 
+> *** System restart required ***
+[22:14:31.610] > ready: ccb041491e73
+[22:14:31.671] > Linux 5.19.0-41-generic #42~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 18 17:40:00 UTC 2
+[22:14:31.671] Platform: linux
+[22:14:31.731] > /bin/bash
+[22:14:31.731] Shell: bash
+[22:14:31.732] Creating bash subshell inside "bash"
+[22:14:31.803] > bash version:  5.1.16(1)-release
+[22:14:31.851] > bash version:  5.1.16(1)-release
+[22:14:31.943] > ccb041491e73: running
+[22:14:31.970] > Acquiring lock on /home/web_server/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/vscode-remote-lock.web_server.6c3e3dba23e8fadc360aed75ce363ba185c49794
+[22:14:31.976] > Found existing installation at /home/web_server/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794...
+> Checking /home/web_server/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.log and /home/web_server/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.pid for a running server
+[22:14:31.979] > Looking for server with pid: 3018168
+[22:14:32.029] > Running ssh connection command... /home/web_server/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all   &> "/home/web_server/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.log" < /dev/null
+> printenv:
+[22:14:32.031] >     SHELL=/bin/bash
+>     LANGUAGE=en_IN:en
+>     PWD=/home/web_server
+>     LOGNAME=web_server
+>     XDG_SESSION_TYPE=tty
+>     MOTD_SHOWN=pam
+>     HOME=/home/web_server
+>     LANG=en_IN
+>     VSCODE_AGENT_FOLDER=/home/web_server/.vscode-server
+>     SSH_CONNECTION=192.168.1.99 59756 192.168.16.203 22
+>     XDG_SESSION_CLASS=user
+>     USER=web_server
+>     SHLVL=1
+>     XDG_SESSION_ID=186321
+>     XDG_RUNTIME_DIR=/run/user/1013
+>     SSH_CLIENT=192.168.1.99 59756 22
+>     XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+>     PATH=/home/web_server/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>     DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1013/bus
+>     _=/usr/bin/printenv
+[22:14:32.041] > Removing old logfile at /home/web_server/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.log
+[22:14:32.043] > Spawned remote server: 3073818
+[22:14:32.046] > Waiting for server log...
+[22:14:32.089] > Waiting for server log...
+[22:14:32.145] >  
+> *
+> * Visual Studio Code Server
+> *
+> * By using the software, you agree to
+> * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+> * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+> *
+>  
+[22:14:32.157] > ccb041491e73: start
+> SSH_AUTH_SOCK====
+> DISPLAY====
+> webUiAccessToken====
+> listeningOn==35207==
+> osReleaseId==ubuntu==
+> arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/1013==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> extInstallTime====
+> serverStartTime==90==
+[22:14:32.169] > connectionToken==a1a11111-aaa1-11a1-1aa1-a1111a1a1a11==
+> ccb041491e73: end
+[22:14:32.170] Received install output: 
+SSH_AUTH_SOCK====
+DISPLAY====
+webUiAccessToken====
+listeningOn==35207==
+osReleaseId==ubuntu==
+arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/1013==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+extInstallTime====
+serverStartTime==90==connectionToken==a1a11111-aaa1-11a1-1aa1-a1111a1a1a11==
+
+[22:14:32.171] Remote server is listening on 35207
+[22:14:32.172] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":35207},"osReleaseId":"ubuntu","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","display":"","tmpDir":"/run/user/1013","platform":"linux","connectionToken":"a1a11111-aaa1-11a1-1aa1-a1111a1a1a11"},"serverStartTime":90,"installUnpackCode":""}
+[22:14:32.173] Persisting server connection details to /home/panda/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-62d7b149-6c3e3dba23e8fadc360aed75ce363ba185c49794-0.102.0/data.json
+[22:14:32.176] Starting forwarding server. localPort 44045 -> socksPort 43675 -> remotePort 35207
+[22:14:32.177] Forwarding server listening on 44045
+[22:14:32.177] Waiting for ssh tunnel to be ready
+[22:14:32.178] [Forwarding server 44045] Got connection 0
+[22:14:32.181] Tunneled 35207 to local port 44045
+[22:14:32.181] Resolved "ssh-remote+btp" to "127.0.0.1:44045"
+[22:14:32.212] ------
+
+
+
+
+[22:14:32.308] [Forwarding server 44045] Got connection 1
+[22:14:32.495] [Forwarding server 44045] Got connection 2
+[22:14:33.848] [Forwarding server 44045] Got connection 3
