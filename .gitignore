@@ -1,10 +1,10 @@
-*
-!include eww/*
-!include foot/*
-!include hypr/*
-!include mako/*
-!include swaylock/*
-!include wlogout/*
+/*
+!eww/*
+!foot/*
+!hypr/*
+!mako/*
+!swaylock/*
+!wlogout/*
 !code-flags.conf
 !.gitignore
 
