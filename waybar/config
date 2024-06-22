@@ -1,0 +1,112 @@
+{
+	"layer": "bottom",
+	"position": "bottom",
+	"height": 20,
+	"modules-left": [
+		"hyprland/workspaces",
+	],
+	"modules-center": [],
+	"modules-right": [
+		"temperature",
+		"memory",
+		"disk",
+		"pulseaudio",
+		"backlight",
+		"tray",
+		"bluetooth",
+		"network",
+		"battery",
+		"clock"
+	],
+	"hyprland/workspaces": {
+		"disable-scroll": true,
+		"all-outputs": true,
+		"format": "{icon}",
+		"format-icons": {
+			"1": "",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": ""
+		}
+	},
+	"battery": {
+		"format": "{capacity}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"tooltip": true,
+		"tooltip-format": "{time}"
+	},
+	"clock": {
+		"format": "{:%H:%M}  ",
+		"format-alt": "{:%a, %d. %b  %H:%M}"
+	},
+	"network": {
+		"interface": "wlp0s20f3",
+		"on-click": "foot -T nm_tui 'nmtui'",
+		"on-click-middle": "rfkill toggle wifi",
+		"format": "{ifname}",
+		"format-wifi": "{essid} ({signalStrength}%) ",
+		"format-ethernet": "{ipaddr}/{cidr} 󰊗",
+		"format-disconnected": "disconnected ",
+		"format-disabled": "disabled ",
+		"tooltip-format": "{ifname} via {gwaddr} 󰊗",
+		"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+	},
+	"bluetooth": {
+		"format": " {status}",
+		"format-connected": " {device_alias}",
+		"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+		"on-click": "blueberry",
+		"on-click-middle": "rfkill toggle bluetooth",
+		"tooltip-format": "{controller_alias}\t{controller_address} connected",
+		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+	},	
+	"backlight": {
+		"device": "intel_backlight",
+		"format": "{percent}% "
+	},
+	"disk": {
+		"interval": 60,
+		"format": "{percentage_used}% ",
+		"path": "/"
+	},
+	"memory": {
+		"interval": 30,
+		"format": "{percentage}% ",
+	},
+	"temperature": {
+		"interval": 30,
+		"format": "{temperatureC}°C "
+	},
+	"tray": {
+		"icon-size": 14,
+		"spacing": 10
+	},
+	"pulseaudio": {
+        	"scroll-step": 0, // %, can be a float
+        	"format": "{volume}% {icon}    {format_source}",
+        	"format-bluetooth": "{volume}% {icon}    {format_source}",
+        	"format-bluetooth-muted": "    {format_source}",
+        	"format-muted": "    {format_source}",
+        	"format-source": "{volume}% ",
+        	"format-source-muted": "",
+        	// "format-alt": "{volume}% {icon} {format_source}",
+        	"format-icons": {
+        	    "headphone": ["", "", "", ""],
+        	    "hands-free": "",
+        	    "phone": "",
+        	    "portable": "",
+        	    "car": "",
+        	    "default": ["", "", "", ""]
+        	},
+        	"on-click": "pavucontrol"
+    	}
+}

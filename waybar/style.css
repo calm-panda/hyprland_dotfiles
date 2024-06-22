@@ -1,0 +1,111 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: FontAwesome;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(43, 48, 59, 0.5);
+  color: white;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  background: transparent;
+  color: white;
+}
+
+#workspaces button.focused {
+  background: #64727D;
+}
+
+#mode,
+#clock,
+#battery,
+#network,
+#backlight,
+#disk,
+#memory,
+#temperature,
+#tray,
+#bluetooth,
+#pulseaudio {
+  padding: 0 16px;
+  margin: 0 2px;
+}
+
+#mode {
+  background: #64727D;
+  border-bottom: 3px solid white;
+}
+
+#network {
+  /* background-color: #E0B68F; */
+  background-color: #D19A47;
+  color: black;
+}
+
+#bluetooth {
+  background-color: #D19A47;
+  color: black;
+}
+
+#clock {
+  /* background-color: #61AFEF; */
+  background-color: #C18B72;
+  color: black;
+}
+
+#pulseaudio {
+  background-color: #56B6C2;
+  color: black;
+}
+
+#backlight {
+  background-color: #56B6C2;
+  color: black;
+}
+
+#network.disconnected {
+  /* background-color: #3B414D; */
+  background-color: #56B6C2;
+  color: black;
+}
+
+#bluetooth.disabled {
+  background-color: #56B6C2;
+  color: black;
+}
+
+#battery.charging {
+  color: white;
+  background-color: #26A65B;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
+#battery.warning:not(.charging) {
+  background: #f53c3c;
+  color: white;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
